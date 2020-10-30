@@ -12,22 +12,27 @@ namespace MethodsWithLoopsAndConditionals
             ByThrees();
             Console.WriteLine(AreEqual(2, 10));
             Console.WriteLine("******************");
+            Console.WriteLine("");
             Console.WriteLine("Pick a number:");
             OddEven();
             Console.WriteLine("******************");
+            Console.WriteLine("");
             Console.WriteLine("Pick another number:");
             PositveOrNegative();
             Console.WriteLine("******************");
             Console.WriteLine("******************");
+            Console.WriteLine("");
             Console.WriteLine("What is your age:");
             LetsVote();
             Console.WriteLine("******************");
             Console.WriteLine("******************");
+            Console.WriteLine("");
             Console.WriteLine("Give me a number between 10 and -10:");
             var inBetween = int.Parse(Console.ReadLine());
             Range(inBetween);
             Console.WriteLine("******************");
             Console.WriteLine("******************");
+            Console.WriteLine("");
             Console.WriteLine("Give me numbers to multiply:");
            
             Multiply();
